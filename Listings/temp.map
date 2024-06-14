@@ -1002,17 +1002,17 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-      1100          0          0          0          0       3098   i2c_drive.o
-       936          0         17          0          0       1996   lcd_1602_drive.o
-      1154          0          4          0         20       5480   main.o
-       388          0          0          0          0       1521   mpu6050.o
-        84          0          0          0          0        624   pcf8574_drive.o
+      1100          0          0          0          0       3056   i2c_drive.o
+       936          0         17          0          0       1954   lcd_1602_drive.o
+      1154          0          4          0         20       5349   main.o
+       388          0          0          0          0       1479   mpu6050.o
+        84          0          0          0          0        582   pcf8574_drive.o
         64         26        236          0       1536        840   startup_stm32f10x_md.o
-       400          0          0          0          0       2976   system_stm32f10x.o
-       256          0          0          0          0       1158   systick_time.o
+       400          0          0          0          0       2837   system_stm32f10x.o
+       256          0          0          0          0       1116   systick_time.o
 
     ----------------------------------------------------------------------
-      4420         26        274          0       1560      17693   Object Totals
+      4420         26        274          0       1560      17213   Object Totals
          0          0         16          0          0          0   (incl. Generated)
         38          0          1          0          4          0   (incl. Padding)
 
@@ -1076,8 +1076,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      6982        218        274          0       1656      18725   Grand Totals
-      6982        218        274          0       1656      18725   ELF Image Totals
+      6982        218        274          0       1656      18245   Grand Totals
+      6982        218        274          0       1656      18245   ELF Image Totals
       6982        218        274          0          0          0   ROM Totals
 
 ==============================================================================

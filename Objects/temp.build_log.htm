@@ -5,7 +5,7 @@
 <h2>Tool Versions:</h2>
 IDE-Version: µVision V5.39.0.0
 Copyright (C) 2023 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: Hoang ADmin, Ssss, LIC=----
+License Information: Hung Admin, VNU, LIC=----
  
 Tool Versions:
 Toolchain:       MDK-Lite  Version: 5.39.0.0
@@ -21,35 +21,479 @@ Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.2.0.0
 Dialog DLL:      TCM.DLL V1.56.4.0
  
 <h2>Project:</h2>
-C:\Users\ADmin\Desktop\he thong nhung\cambiennga - Copy\temp.uvprojx
+D:\CKI nhúng\temp.uvprojx
 Project File Date:  06/15/2024
 
 <h2>Output:</h2>
 *** Using Compiler 'V6.21', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
 Build target 'Target 1'
-systick_time.c(1): warning: In file included from...
-C:/Users/ADmin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+lcd_1602_drive.c(1): warning: In file included from...
+./lcd_1602_drive.h(3): warning: In file included from...
+C:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
    18 |   *              - To use or not the peripheral<92>s drivers in application code(i.e. 
       |                                                ^
-C:/Users/ADmin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+C:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
    19 |   *                code will be based on direct access to peripheral<92>s registers 
       |                                                                     ^
-C:/Users/ADmin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+C:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   26 |   *           - Macros to access peripheral<92>s registers hardware
+      |                                            ^
+lcd_1602_drive.c(112): warning: implicit conversion loses integer precision: 'int' to 'unsigned char' [-Wimplicit-int-conversion]
+  112 |         lcd_i2c_cmd(i2c,0x80 +pos + pos_0_16);
+      |         ~~~~~~~~~~~     ~~~~~~~~~~^~~~~~~~~~
+lcd_1602_drive.c(94): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   94 |                 while(str[i])
+      |                       ^~~
+lcd_1602_drive.c(96): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   96 |                         lcd_i2c_data(i2c,str[i]);
+      |                                          ^~~
+6 warnings generated.
+compiling lcd_1602_drive.c...
+systick_time.c(1): warning: In file included from...
+C:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   18 |   *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+      |                                                ^
+C:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   19 |   *                code will be based on direct access to peripheral<92>s registers 
+      |                                                                     ^
+C:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
    26 |   *           - Macros to access peripheral<92>s registers hardware
       |                                            ^
 3 warnings generated.
 compiling systick_time.c...
+PCF8574_drive.c(1): warning: In file included from...
+./PCF8574_drive.h(1): warning: In file included from...
+./i2c_drive.h(1): warning: In file included from...
+C:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   18 |   *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+      |                                                ^
+C:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   19 |   *                code will be based on direct access to peripheral<92>s registers 
+      |                                                                     ^
+C:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   26 |   *           - Macros to access peripheral<92>s registers hardware
+      |                                            ^
+PCF8574_drive.c(4): warning: no previous prototype for function 'PCF8574_add' [-Wmissing-prototypes]
+    4 | void PCF8574_add(char i2c, char R_W)
+      |      ^
+PCF8574_drive.c(4): note: declare 'static' if the function is not intended to be used outside of this translation unit
+    4 | void PCF8574_add(char i2c, char R_W)
+      | ^
+      | static 
+4 warnings generated.
+compiling PCF8574_drive.c...
+RTE/Device/STM32F103C8/system_stm32f10x.c(64): warning: In file included from...
+C:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   18 |   *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+      |                                                ^
+C:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   19 |   *                code will be based on direct access to peripheral<92>s registers 
+      |                                                                     ^
+C:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   26 |   *           - Macros to access peripheral<92>s registers hardware
+      |                                            ^
+RTE/Device/STM32F103C8/system_stm32f10x.c(166): warning: no previous extern declaration for non-static variable 'AHBPrescTable' [-Wmissing-variable-declarations]
+  166 | __I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
+      |             ^
+RTE/Device/STM32F103C8/system_stm32f10x.c(166): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+  166 | __I uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
+      |     ^
+RTE/Device/STM32F103C8/system_stm32f10x.c(408): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  408 |   tmp = AHBPrescTable[((RCC->CFGR & RCC_CFGR_HPRE) >> 4)];
+      |         ^~~~~~~~~~~~~
+5 warnings generated.
+compiling system_stm32f10x.c...
+i2c_drive.c(1): warning: In file included from...
+./i2c_drive.h(1): warning: In file included from...
+C:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   18 |   *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+      |                                                ^
+C:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   19 |   *                code will be based on direct access to peripheral<92>s registers 
+      |                                                                     ^
+C:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   26 |   *           - Macros to access peripheral<92>s registers hardware
+      |                                            ^
+i2c_drive.c(46): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+   46 |                 while (!(I2C1->SR1 & 1)){};
+      |                                           ^
+i2c_drive.c(51): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+   51 |                 while (!(I2C2->SR1 & 1)){};
+      |                                           ^
+i2c_drive.c(61): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+   61 |                 while((I2C1->SR1 & 2)==0){};
+      |                                            ^
+i2c_drive.c(74): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+   74 |                 while((I2C2->SR1 & 2)==0){};
+      |                                            ^
+i2c_drive.c(57): warning: variable 'tmp' set but not used [-Wunused-but-set-variable]
+   57 |         volatile int tmp;
+      |                      ^
+i2c_drive.c(105): warning: variable 'tmp' set but not used [-Wunused-but-set-variable]
+  105 |         volatile int tmp;
+      |                      ^
+i2c_drive.c(143): warning: implicit conversion loses integer precision: 'volatile uint16_t' (aka 'volatile unsigned short') to 'char' [-Wimplicit-int-conversion]
+  143 |                         temp = I2C1->DR;
+      |                              ~ ~~~~~~^~
+i2c_drive.c(154): warning: implicit conversion loses integer precision: 'volatile uint16_t' (aka 'volatile unsigned short') to 'char' [-Wimplicit-int-conversion]
+  154 |                         temp = I2C2->DR;
+      |                              ~ ~~~~~~^~
+i2c_drive.c(150): warning: variable 'temp' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  150 |         else if(i2c==2)
+      |                 ^~~~~~
+i2c_drive.c(161): note: uninitialized use occurs here
+  161 |         return temp;
+      |                ^~~~
+i2c_drive.c(150): note: remove the 'if' if its condition is always true
+  150 |         else if(i2c==2)
+      |              ^~~~~~~~~~
+  151 |         {
+i2c_drive.c(138): note: initialize the variable 'temp' to silence this warning
+  138 |         char temp;
+      |                  ^
+      |                   = '\0'
+i2c_drive.c(128): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  128 |         while(data[i])
+      |               ^~~~
+i2c_drive.c(130): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  130 |                         i2c_data(i2c,data[i]);
+      |                                      ^~~~
+14 warnings generated.
+compiling i2c_drive.c...
+mpu6050.c(1): warning: In file included from...
+./mpu6050.h(1): warning: In file included from...
+./i2c_drive.h(1): warning: In file included from...
+C:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   18 |   *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+      |                                                ^
+C:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   19 |   *                code will be based on direct access to peripheral<92>s registers 
+      |                                                                     ^
+C:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   26 |   *           - Macros to access peripheral<92>s registers hardware
+      |                                            ^
+mpu6050.c(1): warning: In file included from...
+./mpu6050.h(23): warning: no newline at end of file [-Wnewline-eof]
+   23 | void mpu6050_gyro(char i2c,uint8_t * Rx_data);
+      |                                               ^
+mpu6050.c(4): warning: no previous prototype for function 'mpu6050_add' [-Wmissing-prototypes]
+    4 | void mpu6050_add(char i2c, char R_W)
+      |      ^
+mpu6050.c(4): note: declare 'static' if the function is not intended to be used outside of this translation unit
+    4 | void mpu6050_add(char i2c, char R_W)
+      | ^
+      | static 
+mpu6050.c(11): warning: no previous prototype for function 'mpu6050_tx' [-Wmissing-prototypes]
+   11 | void mpu6050_tx(char i2c,char reg,char data)
+      |      ^
+mpu6050.c(11): note: declare 'static' if the function is not intended to be used outside of this translation unit
+   11 | void mpu6050_tx(char i2c,char reg,char data)
+      | ^
+      | static 
+mpu6050.c(20): warning: no previous prototype for function 'mpu6050_rx' [-Wmissing-prototypes]
+   20 | void mpu6050_rx(char i2c,char reg,char * str,char data_len)
+      |      ^
+mpu6050.c(20): note: declare 'static' if the function is not intended to be used outside of this translation unit
+   20 | void mpu6050_rx(char i2c,char reg,char * str,char data_len)
+      | ^
+      | static 
+mpu6050.c(49): warning: passing 'uint8_t *' (aka 'unsigned char *') to parameter of type 'char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+   49 |          mpu6050_rx(i2c,0x75, &check, 1);
+      |                               ^~~~~~
+mpu6050.c(20): note: passing argument to parameter 'str' here
+   20 | void mpu6050_rx(char i2c,char reg,char * str,char data_len)
+      |                                          ^
+mpu6050.c(46): warning: mixing declarations and code is incompatible with standards before C99 [-Wdeclaration-after-statement]
+   46 |         uint8_t check;
+      |                 ^
+mpu6050.c(47): warning: variable 'check' is uninitialized when used here [-Wuninitialized]
+   47 |         if (check == 0x68)  
+      |             ^~~~~
+mpu6050.c(46): note: initialize the variable 'check' to silence this warning
+   46 |         uint8_t check;
+      |                      ^
+      |                       = '\0'
+mpu6050.c(67): warning: passing 'uint8_t *' (aka 'unsigned char *') to parameter of type 'char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+   67 |         mpu6050_rx(i2c,0x3B,Rx_data,6);
+      |                             ^~~~~~~
+mpu6050.c(20): note: passing argument to parameter 'str' here
+   20 | void mpu6050_rx(char i2c,char reg,char * str,char data_len)
+      |                                          ^
+mpu6050.c(78): warning: passing 'uint8_t *' (aka 'unsigned char *') to parameter of type 'char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+   78 |         mpu6050_rx(i2c,0x43,Rx_data,6);
+      |                             ^~~~~~~
+mpu6050.c(20): note: passing argument to parameter 'str' here
+   20 | void mpu6050_rx(char i2c,char reg,char * str,char data_len)
+      |                                          ^
+mpu6050.c(32): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   32 |                 str[i] = i2c_rx(i2c,ACK);
+      |                 ^~~
+mpu6050.c(34): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   34 |         str[i] = i2c_rx(i2c,NACK);
+      |         ^~~
+14 warnings generated.
+compiling mpu6050.c...
+main.c(2): warning: In file included from...
+./lcd_1602_drive.h(3): warning: In file included from...
+C:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   18 |   *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+      |                                                ^
+C:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   19 |   *                code will be based on direct access to peripheral<92>s registers 
+      |                                                                     ^
+C:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+   26 |   *           - Macros to access peripheral<92>s registers hardware
+      |                                            ^
+main.c(3): warning: In file included from...
+./mpu6050.h(23): warning: no newline at end of file [-Wnewline-eof]
+   23 | void mpu6050_gyro(char i2c,uint8_t * Rx_data);
+      |                                               ^
+main.c(7): warning: no previous extern declaration for non-static variable 'Accel_X_RAW' [-Wmissing-variable-declarations]
+    7 | int16_t Accel_X_RAW = 0;
+      |         ^
+main.c(7): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+    7 | int16_t Accel_X_RAW = 0;
+      | ^
+main.c(8): warning: no previous extern declaration for non-static variable 'Accel_Y_RAW' [-Wmissing-variable-declarations]
+    8 | int16_t Accel_Y_RAW = 0;
+      |         ^
+main.c(8): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+    8 | int16_t Accel_Y_RAW = 0;
+      | ^
+main.c(9): warning: no previous extern declaration for non-static variable 'Accel_Z_RAW' [-Wmissing-variable-declarations]
+    9 | int16_t Accel_Z_RAW = 0;
+      |         ^
+main.c(9): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+    9 | int16_t Accel_Z_RAW = 0;
+      | ^
+main.c(11): warning: no previous extern declaration for non-static variable 'Gyro_X_RAW' [-Wmissing-variable-declarations]
+   11 | int16_t Gyro_X_RAW = 0;
+      |         ^
+main.c(11): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   11 | int16_t Gyro_X_RAW = 0;
+      | ^
+main.c(12): warning: no previous extern declaration for non-static variable 'Gyro_Y_RAW' [-Wmissing-variable-declarations]
+   12 | int16_t Gyro_Y_RAW = 0;
+      |         ^
+main.c(12): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   12 | int16_t Gyro_Y_RAW = 0;
+      | ^
+main.c(13): warning: no previous extern declaration for non-static variable 'Gyro_Z_RAW' [-Wmissing-variable-declarations]
+   13 | int16_t Gyro_Z_RAW = 0;
+      |         ^
+main.c(13): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   13 | int16_t Gyro_Z_RAW = 0;
+      | ^
+main.c(14): warning: no previous extern declaration for non-static variable 'Ax' [-Wmissing-variable-declarations]
+   14 | float Ax=0, Ay, Az, Gx, Gy, Gz;
+      |       ^
+main.c(14): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   14 | float Ax=0, Ay, Az, Gx, Gy, Gz;
+      | ^
+main.c(16): warning: no previous extern declaration for non-static variable 'sw' [-Wmissing-variable-declarations]
+   16 | uint8_t sw= 0;
+      |         ^
+main.c(16): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   16 | uint8_t sw= 0;
+      | ^
+main.c(17): warning: no previous extern declaration for non-static variable 'mode' [-Wmissing-variable-declarations]
+   17 | uint8_t mode=0;
+      |         ^
+main.c(17): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   17 | uint8_t mode=0;
+      | ^
+main.c(18): warning: no previous extern declaration for non-static variable 'on' [-Wmissing-variable-declarations]
+   18 | uint8_t on=0;
+      |         ^
+main.c(18): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   18 | uint8_t on=0;
+      | ^
+main.c(28): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   28 |                 else GPIOB->ODR &= ~1;
+      |                                 ~~ ^~
+main.c(34): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   34 |                 else GPIOB->ODR &= ~(1<<1);
+      |                                 ~~ ^~~~~~~
+main.c(38): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   38 | void accel()
+      |           ^
+      |            void
+main.c(47): warning: implicit conversion loses floating-point precision: 'double' to 'float' [-Wimplicit-float-conversion]
+   47 |         Ax = Accel_X_RAW/16384.0;
+      |            ~ ~~~~~~~~~~~^~~~~~~~
+main.c(48): warning: implicit conversion loses floating-point precision: 'double' to 'float' [-Wimplicit-float-conversion]
+   48 |         Ay = Accel_Y_RAW/16384.0;
+      |            ~ ~~~~~~~~~~~^~~~~~~~
+main.c(49): warning: implicit conversion loses floating-point precision: 'double' to 'float' [-Wimplicit-float-conversion]
+   49 |         Az = Accel_Z_RAW/16384.0;
+      |            ~ ~~~~~~~~~~~^~~~~~~~
+main.c(38): warning: no previous prototype for function 'accel' [-Wmissing-prototypes]
+   38 | void accel()
+      |      ^
+main.c(38): note: declare 'static' if the function is not intended to be used outside of this translation unit
+   38 | void accel()
+      | ^
+      | static 
+main.c(52): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   52 | void gyro()
+      |          ^
+      |           void
+main.c(61): warning: implicit conversion loses floating-point precision: 'double' to 'float' [-Wimplicit-float-conversion]
+   61 |         Gx = Gyro_X_RAW/131.0;
+      |            ~ ~~~~~~~~~~^~~~~~
+main.c(62): warning: implicit conversion loses floating-point precision: 'double' to 'float' [-Wimplicit-float-conversion]
+   62 |         Gy = Gyro_Y_RAW/131.0;
+      |            ~ ~~~~~~~~~~^~~~~~
+main.c(63): warning: implicit conversion loses floating-point precision: 'double' to 'float' [-Wimplicit-float-conversion]
+   63 |         Gz = Gyro_Z_RAW/131.0;
+      |            ~ ~~~~~~~~~~^~~~~~
+main.c(52): warning: no previous prototype for function 'gyro' [-Wmissing-prototypes]
+   52 | void gyro()
+      |      ^
+main.c(52): note: declare 'static' if the function is not intended to be used outside of this translation unit
+   52 | void gyro()
+      | ^
+      | static 
+main.c(78): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   78 |         GPIOA->CRL &= ~(( 1<<0) | (1<<1)| (1<<2)) ;
+      |                    ~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+main.c(81): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   81 |         GPIOA->CRL &= ~(( 1<<4) | (1<<5)| (1<<6)) ; 
+      |                    ~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+main.c(84): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   84 |         GPIOB->CRL &= ~((1 << 2)| (1 << 3)) ;
+      |                    ~~ ^~~~~~~~~~~~~~~~~~~~~
+main.c(87): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   87 |         GPIOB->CRL &= ~((1<<6)|(1<<7));
+      |                    ~~ ^~~~~~~~~~~~~~~~
+main.c(91): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   91 |         GPIOA->CRL &= ~(( 1<<8) | (1<<9)| (1<<10)) ;
+      |                    ~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+main.c(97): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   97 |         AFIO->EXTICR[0] &= ~(0xff); 
+      |                         ~~ ^~~~~~~
+main.c(119): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  119 | void EXTI0_IRQHandler() 
+      |                      ^
+      |                       void
+main.c(119): warning: no previous prototype for function 'EXTI0_IRQHandler' [-Wmissing-prototypes]
+  119 | void EXTI0_IRQHandler() 
+      |      ^
+main.c(119): note: declare 'static' if the function is not intended to be used outside of this translation unit
+  119 | void EXTI0_IRQHandler() 
+      | ^
+      | static 
+main.c(127): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  127 | void EXTI1_IRQHandler() 
+      |                      ^
+      |                       void
+main.c(127): warning: no previous prototype for function 'EXTI1_IRQHandler' [-Wmissing-prototypes]
+  127 | void EXTI1_IRQHandler() 
+      |      ^
+main.c(127): note: declare 'static' if the function is not intended to be used outside of this translation unit
+  127 | void EXTI1_IRQHandler() 
+      | ^
+      | static 
+main.c(135): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  135 | void hien1()
+      |           ^
+      |            void
+main.c(135): warning: no previous prototype for function 'hien1' [-Wmissing-prototypes]
+  135 | void hien1()
+      |      ^
+main.c(135): note: declare 'static' if the function is not intended to be used outside of this translation unit
+  135 | void hien1()
+      | ^
+      | static 
+main.c(149): warning: unused parameter 'm' [-Wunused-parameter]
+  149 | void hienthi(uint8_t m, uint8_t o)
+      |                      ^
+main.c(149): warning: unused parameter 'o' [-Wunused-parameter]
+  149 | void hienthi(uint8_t m, uint8_t o)
+      |                                 ^
+main.c(178): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  178 | void check()
+      |           ^
+      |            void
+main.c(185): warning: mixing declarations and code is incompatible with standards before C99 [-Wdeclaration-after-statement]
+  185 |                 float paccel = Ax*Ax + Ay*Ay + Az*Az;
+      |                       ^
+main.c(191): warning: no newline at end of file [-Wnewline-eof]
+  191 | }
+      |  ^
+main.c(14): warning: no previous extern declaration for non-static variable 'Ay' [-Wmissing-variable-declarations]
+   14 | float Ax=0, Ay, Az, Gx, Gy, Gz;
+      |             ^
+main.c(14): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   14 | float Ax=0, Ay, Az, Gx, Gy, Gz;
+      | ^
+main.c(14): warning: no previous extern declaration for non-static variable 'Az' [-Wmissing-variable-declarations]
+   14 | float Ax=0, Ay, Az, Gx, Gy, Gz;
+      |                 ^
+main.c(14): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   14 | float Ax=0, Ay, Az, Gx, Gy, Gz;
+      | ^
+main.c(14): warning: no previous extern declaration for non-static variable 'Gx' [-Wmissing-variable-declarations]
+   14 | float Ax=0, Ay, Az, Gx, Gy, Gz;
+      |                     ^
+main.c(14): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   14 | float Ax=0, Ay, Az, Gx, Gy, Gz;
+      | ^
+main.c(14): warning: no previous extern declaration for non-static variable 'Gy' [-Wmissing-variable-declarations]
+   14 | float Ax=0, Ay, Az, Gx, Gy, Gz;
+      |                         ^
+main.c(14): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   14 | float Ax=0, Ay, Az, Gx, Gy, Gz;
+      | ^
+main.c(14): warning: no previous extern declaration for non-static variable 'Gz' [-Wmissing-variable-declarations]
+   14 | float Ax=0, Ay, Az, Gx, Gy, Gz;
+      |                             ^
+main.c(14): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   14 | float Ax=0, Ay, Az, Gx, Gy, Gz;
+      | ^
+main.c(43): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   43 |         Accel_X_RAW = (int16_t)(Rx_data[0] << 8 | Rx_data [1]);
+      |                                                   ^~~~~~~
+main.c(44): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   44 |         Accel_Y_RAW = (int16_t)(Rx_data[2] << 8 | Rx_data [3]);
+      |                                 ^~~~~~~
+main.c(44): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   44 |         Accel_Y_RAW = (int16_t)(Rx_data[2] << 8 | Rx_data [3]);
+      |                                                   ^~~~~~~
+main.c(45): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   45 |         Accel_Z_RAW = (int16_t)(Rx_data[4] << 8 | Rx_data [5]);
+      |                                 ^~~~~~~
+main.c(45): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   45 |         Accel_Z_RAW = (int16_t)(Rx_data[4] << 8 | Rx_data [5]);
+      |                                                   ^~~~~~~
+main.c(57): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   57 |         Gyro_X_RAW = (int16_t)(Rx_data[0] << 8 | Rx_data [1]);
+      |                                                  ^~~~~~~
+main.c(58): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   58 |         Gyro_Y_RAW = (int16_t)(Rx_data[2] << 8 | Rx_data [3]);
+      |                                ^~~~~~~
+main.c(58): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   58 |         Gyro_Y_RAW = (int16_t)(Rx_data[2] << 8 | Rx_data [3]);
+      |                                                  ^~~~~~~
+main.c(59): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   59 |         Gyro_Z_RAW = (int16_t)(Rx_data[4] << 8 | Rx_data [5]);
+      |                                ^~~~~~~
+main.c(59): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   59 |         Gyro_Z_RAW = (int16_t)(Rx_data[4] << 8 | Rx_data [5]);
+      |                                                  ^~~~~~~
+58 warnings generated.
+compiling main.c...
 linking...
 Program Size: Code=6982 RO-data=274 RW-data=0 ZI-data=1656  
-".\Objects\temp.axf" - 0 Error(s), 3 Warning(s).
+".\Objects\temp.axf" - 0 Error(s), 104 Warning(s).
 
 <h2>Software Packages used:</h2>
 
 Package Vendor: ARM
-                https://www.keil.com/pack/ARM.CMSIS.6.0.0.pack
-                ARM::CMSIS@6.0.0
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM::CMSIS@5.9.0
                 CMSIS (Common Microcontroller Software Interface Standard)
-   * Component: CORE Version: 6.0.0
+   * Component: CORE Version: 5.6.0
 
 Package Vendor: Keil
                 https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
@@ -60,19 +504,19 @@ Package Vendor: Keil
 <h2>Collection of Component include folders:</h2>
   ./RTE/Device/STM32F103C8
   ./RTE/_Target_1
-  C:/Users/ADmin/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include
-  C:/Users/ADmin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+  C:/Users/Admin/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
 
 <h2>Collection of Component Files used:</h2>
 
-   * Component: ARM::CMSIS:CORE@6.0.0
+   * Component: ARM::CMSIS:CORE@5.6.0
 
    * Component: Keil::Device:Startup@1.0.0
       Source file:   Device/Source/system_stm32f10x.c
-      Source file:   Device/Source/ARM/STM32F1xx_OPT.s
       Source file:   Device/Source/ARM/startup_stm32f10x_md.s
+      Source file:   Device/Source/ARM/STM32F1xx_OPT.s
       Include file:  RTE_Driver/Config/RTE_Device.h
-Build Time Elapsed:  00:00:00
+Build Time Elapsed:  00:00:03
 </pre>
 </body>
 </html>

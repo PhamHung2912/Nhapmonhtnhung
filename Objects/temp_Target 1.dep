@@ -1,85 +1,78 @@
 Dependencies for Project 'temp', Target 'Target 1': (DO NOT MODIFY !)
 CompilerVersion: 6210000::V6.21::ARMCLANG
-F (.\main.c)(0x666C816A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/ADmin/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/ADmin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/main.o -MD)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x66486CE4)
-I (RTE\_Target_1\RTE_Components.h)(0x66616B49)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm3.h)(0x6632FA69)
+F (.\main.c)(0x666CD4EC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/Admin/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/main.o -MD)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x664843C9)
+I (RTE\_Target_1\RTE_Components.h)(0x666CD4EC)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F58EE)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569BE22)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x6632FA69)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x6632FA69)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x6632FA69)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569BE20)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x66486CE4)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F58EE)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x664843C9)
 I (PCF8574_drive.hA2c_drive.hapu6050.h)(0x00000000)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569BE22)
-F (.\i2c_drive.c)(0x666C816A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/ADmin/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/ADmin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/i2c_drive.o -MD)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x66486CE4)
-I (RTE\_Target_1\RTE_Components.h)(0x66616B49)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm3.h)(0x6632FA69)
+F (.\i2c_drive.c)(0x666CD4EC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/Admin/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/i2c_drive.o -MD)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x664843C9)
+I (RTE\_Target_1\RTE_Components.h)(0x666CD4EC)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F58EE)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569BE22)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x6632FA69)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x6632FA69)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x6632FA69)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569BE20)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x66486CE4)
-F (.\i2c_drive.h)(0x666C78DF)()
-F (.\lcd_1602_drive.c)(0x666C816A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/ADmin/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/ADmin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/lcd_1602_drive.o -MD)
-I (systick_time.h)(0x666C816A)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x66486CE4)
-I (RTE\_Target_1\RTE_Components.h)(0x66616B49)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm3.h)(0x6632FA69)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F58EE)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x664843C9)
+F (.\i2c_drive.h)(0x666CD4EC)()
+F (.\lcd_1602_drive.c)(0x666CD4EC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/Admin/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/lcd_1602_drive.o -MD)
+I (systick_time.h)(0x666CD4EC)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x664843C9)
+I (RTE\_Target_1\RTE_Components.h)(0x666CD4EC)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F58EE)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569BE22)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x6632FA69)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x6632FA69)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x6632FA69)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569BE20)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x66486CE4)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F58EE)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x664843C9)
 I (PCF8574_drive.hA2c_drive.h)(0x00000000)
-F (.\lcd_1602_drive.h)(0x666C78D5)()
-F (.\PCF8574_drive.c)(0x666C816A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/ADmin/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/ADmin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/pcf8574_drive.o -MD)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x66486CE4)
-I (RTE\_Target_1\RTE_Components.h)(0x66616B49)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm3.h)(0x6632FA69)
+F (.\lcd_1602_drive.h)(0x666CD4EC)()
+F (.\PCF8574_drive.c)(0x666CD4EC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/Admin/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/pcf8574_drive.o -MD)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x664843C9)
+I (RTE\_Target_1\RTE_Components.h)(0x666CD4EC)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F58EE)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569BE22)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x6632FA69)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x6632FA69)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x6632FA69)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569BE20)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x66486CE4)
-F (.\PCF8574_drive.h)(0x6669D256)()
-F (.\systick_time.c)(0x666C81A1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/ADmin/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/ADmin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/systick_time.o -MD)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x66486CE4)
-I (RTE\_Target_1\RTE_Components.h)(0x66616B49)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm3.h)(0x6632FA69)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F58EE)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x664843C9)
+F (.\PCF8574_drive.h)(0x666CD4EC)()
+F (.\systick_time.c)(0x666CD4EC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/Admin/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/systick_time.o -MD)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x664843C9)
+I (RTE\_Target_1\RTE_Components.h)(0x666CD4EC)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F58EE)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569BE22)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x6632FA69)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x6632FA69)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x6632FA69)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569BE20)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x66486CE4)
-I (systick_time.h)(0x666C816A)
-F (.\systick_time.h)(0x666C816A)()
-F (.\mpu6050.c)(0x666C816A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/ADmin/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/ADmin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/mpu6050.o -MD)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x66486CE4)
-I (RTE\_Target_1\RTE_Components.h)(0x66616B49)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm3.h)(0x6632FA69)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F58EE)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x664843C9)
+I (systick_time.h)(0x666CD4EC)
+F (.\systick_time.h)(0x666CD4EC)()
+F (.\mpu6050.c)(0x666CD4EC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/Admin/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/mpu6050.o -MD)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x664843C9)
+I (RTE\_Target_1\RTE_Components.h)(0x666CD4EC)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F58EE)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569BE22)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x6632FA69)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x6632FA69)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x6632FA69)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569BE20)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x66486CE4)
-I (systick_time.h)(0x666C816A)
-F (.\mpu6050.h)(0x666AAE1B)()
-F (RTE/Device/STM32F103C8/RTE_Device.h)(0x66486CE5)()
-F (RTE/Device/STM32F103C8/startup_stm32f10x_md.s)(0x66486CE4)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/ADmin/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/ADmin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 539" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F10X_MD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f10x_md.o)
-F (RTE/Device/STM32F103C8/system_stm32f10x.c)(0x66486CE4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/ADmin/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include-IC:/Users/ADmin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/system_stm32f10x.o -MD)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x66486CE4)
-I (RTE\_Target_1\RTE_Components.h)(0x66616B49)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\core_cm3.h)(0x6632FA69)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F58EE)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x664843C9)
+I (systick_time.h)(0x666CD4EC)
+F (.\mpu6050.h)(0x666CD4EC)()
+F (RTE/Device/STM32F103C8/RTE_Device.h)(0x666CD4EC)()
+F (RTE/Device/STM32F103C8/startup_stm32f10x_md.s)(0x666CD4EC)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/Admin/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 539" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F10X_MD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f10x_md.o)
+F (RTE/Device/STM32F103C8/system_stm32f10x.c)(0x666CD4EC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/Admin/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/Admin/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/system_stm32f10x.o -MD)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x664843C9)
+I (RTE\_Target_1\RTE_Components.h)(0x666CD4EC)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F58EE)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569BE22)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_version.h)(0x6632FA69)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\cmsis_compiler.h)(0x6632FA69)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\ARM\CMSIS\6.0.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x6632FA69)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569BE20)
-I (C:\Users\ADmin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x66486CE4)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F58EE)
+I (C:\Users\Admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x664843C9)
