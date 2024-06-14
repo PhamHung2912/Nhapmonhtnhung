@@ -390,16 +390,6 @@
               <FilePath>.\main.c</FilePath>
             </File>
             <File>
-              <FileName>gp_drive.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\gp_drive.c</FilePath>
-            </File>
-            <File>
-              <FileName>gp_drive.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\gp_drive.h</FilePath>
-            </File>
-            <File>
               <FileName>i2c_drive.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\i2c_drive.c</FilePath>
